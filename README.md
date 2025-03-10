@@ -13,18 +13,16 @@ This project focuses on recognizing **traffic signs** using **deep learning** an
 - **TensorFlow/Keras** – Model training and prediction  
 - **OpenCV** – Image preprocessing and real-time recognition  
 - **Flask** – Web application for user interaction  
-- **NumPy & Pandas** – Data handling and processing  
-
+- **NumPy & Pandas** – Data handling and processing
+  
 ## 📂 Project Structure  
-📂 traffic_sign_recognition
-│-- 📜 app.py # Flask web application
-│-- 📜 main.py # Model training script
-│-- 📜 test.py # Testing the model with a webcam
-│-- 📂 Dataset # Traffic sign images
-│-- 📜 labels.csv # Labels for classification
-│-- 📜 model.h5 # Trained model
-│-- 📜 README.md # Project documentation
-│-- 📜 Traffic_Sign_Recognition.ipynb # Jupyter notebook for experiments
+- `app.py` → Flask web application  
+- `main.py` → Model training script  
+- `test.py` → Webcam-based testing  
+- `labels.csv` → Traffic sign classification labels  
+- `model.h5` → Trained deep learning model  
+- `Traffic_Sign_Recognition.ipynb` → Jupyter notebook for experimentation  
+
 
 
 ## 🚀 Workflow  
@@ -46,5 +44,3 @@ This project focuses on recognizing **traffic signs** using **deep learning** an
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hbv3074)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-vahal/)  
 
-## 📜 License  
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
