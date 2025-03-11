@@ -48,7 +48,7 @@ A web-based application designed to extract, manage, and download scholarly data
 - 🔹 Deploy as a cloud-hosted service
 
 ## 🤝 Contributors
-🚀 **Harsh Balkrishna Vahal** ([@yourgithubhandle](https://github.com/hbv3074))
+🚀 **Harsh Balkrishna Vahal** ([@Git handle](https://github.com/hbv3074))
 🚀 **Pankaj More** ([@contributor2](https://github.com/contributor2))
 🚀 **Pratham Mali** ([@contributor3](https://github.com/contributor3))
 
