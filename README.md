@@ -37,7 +37,10 @@ Traffic_Sign_Recognition.ipynb  # Jupyter notebook for experimentation
 🔹 Integrate with autonomous driving systems  
 
 ## 🤝 Contributors
-🚀 **Harsh Balkrishna Vahal**  
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](#)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+## 🤝 Contributors
+
+🚀 Harsh Balkrishna Vahal  
+
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hbv3074)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-vahal/)
 
