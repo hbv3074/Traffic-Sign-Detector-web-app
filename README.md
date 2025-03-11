@@ -31,9 +31,8 @@ This project focuses on recognizing **traffic signs** using **deep learning** an
 3️⃣ **Validate and fine-tune** the model for higher accuracy  
 4️⃣ **Deploy the model** with Flask for real-time predictions  
 
-## 📸 Sample Output  
-*(Add sample images of detected traffic signs here)*  
 
+  
 ## 🏗️ Future Enhancements  
 🔹 Improve real-time accuracy with better augmentation  
 🔹 Deploy as a mobile or edge device application  
