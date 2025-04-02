@@ -37,7 +37,6 @@ Traffic_Sign_Recognition.ipynb  # Jupyter notebook for experimentation
 🔹 Integrate with autonomous driving systems  
 
 ## 🤝 Contributors
-## 🤝 Contributors
 
 🚀 Harsh Balkrishna Vahal  
 
