@@ -1,0 +1,118 @@
+Trainin results - 
+
+ Total Classes Detected: 43
+Importing Classes.....
+Class 0 Done
+Class 1 Done
+Class 2 Done
+Class 3 Done
+Class 4 Done
+Class 5 Done
+Class 6 Done
+Class 7 Done
+Class 8 Done
+Class 9 Done
+Class 10 Done
+Class 11 Done
+Class 12 Done
+Class 13 Done
+Class 14 Done
+Class 15 Done
+Class 16 Done
+Class 17 Done
+Class 18 Done
+Class 19 Done
+Class 20 Done
+Class 21 Done
+Class 22 Done
+Class 23 Done
+Class 24 Done
+Class 25 Done
+Class 26 Done
+Class 27 Done
+Class 28 Done
+Class 29 Done
+Class 30 Done
+Class 31 Done
+Class 32 Done
+Class 33 Done
+Class 34 Done
+Class 35 Done
+Class 36 Done
+Class 37 Done
+Class 38 Done
+Class 39 Done
+Class 40 Done
+Class 41 Done
+Class 42 Done
+Import Complete
+Data Shapes
+Train: (25093, 32, 32, 3) (25093,)
+Validation: (6274, 32, 32, 3) (6274,)
+Test: (7842, 32, 32, 3) (7842,)
+CSV data shape: (39209, 8) <class 'pandas.core.frame.DataFrame'>
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Model: "sequential"
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ conv2d (Conv2D)                 │ (None, 28, 28, 60)     │         1,560 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_1 (Conv2D)               │ (None, 24, 24, 60)     │        90,060 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d (MaxPooling2D)    │ (None, 12, 12, 60)     │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_2 (Conv2D)               │ (None, 10, 10, 30)     │        16,230 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_3 (Conv2D)               │ (None, 8, 8, 30)       │         8,130 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d_1 (MaxPooling2D)  │ (None, 4, 4, 30)       │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 4, 4, 30)       │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ flatten (Flatten)               │ (None, 480)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 500)            │       240,500 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_1 (Dropout)             │ (None, 500)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_1 (Dense)                 │ (None, 43)             │        21,543 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+
+ Total params: 378,023 (1.44 MB)
+
+ Trainable params: 378,023 (1.44 MB)
+
+ Non-trainable params: 0 (0.00 B)
+
+None
+Epoch 1/10
+/usr/local/lib/python3.12/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+784/784 ━━━━━━━━━━━━━━━━━━━━ 23s 22ms/step - accuracy: 0.1484 - loss: 3.1576 - val_accuracy: 0.7957 - val_loss: 0.7767
+Epoch 2/10
+  1/784 ━━━━━━━━━━━━━━━━━━━━ 8s 11ms/step - accuracy: 0.5938 - loss: 1.1436/usr/local/lib/python3.12/dist-packages/keras/src/trainers/epoch_iterator.py:116: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self._interrupted_warning()
+784/784 ━━━━━━━━━━━━━━━━━━━━ 1s 903us/step - accuracy: 0.5938 - loss: 1.1436 - val_accuracy: 0.7888 - val_loss: 0.7579
+Epoch 3/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 11s 14ms/step - accuracy: 0.5834 - loss: 1.3738 - val_accuracy: 0.9294 - val_loss: 0.3051
+Epoch 4/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 1s 946us/step - accuracy: 0.6562 - loss: 1.1871 - val_accuracy: 0.9331 - val_loss: 0.2922
+Epoch 5/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 21s 15ms/step - accuracy: 0.7100 - loss: 0.9455 - val_accuracy: 0.9442 - val_loss: 0.1906
+Epoch 6/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 1s 701us/step - accuracy: 0.7812 - loss: 0.7480 - val_accuracy: 0.9519 - val_loss: 0.1790
+Epoch 7/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 12s 15ms/step - accuracy: 0.7774 - loss: 0.7185 - val_accuracy: 0.9649 - val_loss: 0.1381
+Epoch 8/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 1s 709us/step - accuracy: 0.8750 - loss: 0.5811 - val_accuracy: 0.9638 - val_loss: 0.1380
+Epoch 9/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 12s 15ms/step - accuracy: 0.8155 - loss: 0.5885 - val_accuracy: 0.9751 - val_loss: 0.0910
+Epoch 10/10
+784/784 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.9062 - loss: 0.2336 - val_accuracy: 0.9739 - val_loss: 0.0928
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Test Score: 0.09561889618635178
+Test Accuracy: 0.9738587141036987
+Model Saved Successfully
